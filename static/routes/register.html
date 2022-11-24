@@ -1,12 +1,18 @@
-<h1>Register</h1>
-<p>username</p>
-<input type="text" name="username" id="input-username">
-<p>email</p>
-<input type="text" name="email" id="input-email">
-<p>password</p>
-<input type="password" name="password" id="input-password">
-<p>bio</p>
-<input type="text" name="bio" id="input-bio">
-<p>avatar</p>
-<input type="text" name="avatar" id="input-avatar">
-<button id="button">Submit</button>
+<div class="card">
+  <button class="close">✕</button>
+  <h1>Create your account</h1>
+
+  <p class="input-title">Username</p>
+  <input type="text" id="input-username" />
+  <p id="input-error-username" class="input-error"></p>
+
+  <p class="input-title">Email</p>
+  <input type="text" id="input-email" />
+  <p id="input-error-email" class="input-error"></p>
+
+  <p class="input-title">Password</p>
+  <input type="password" id="input-password" />
+  <p id="input-error-password" class="input-error"></p>
+
+  <button id="submit">Sign Up</button>
+</div>
