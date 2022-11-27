@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font: normal normal normal 12px 'Noto Sans';
+  text-decoration: none;
+  color: #000000;
+}
+
+.surface {
+  background: #fafafa;
+  border: 1px solid #000000;
+}
+
+div {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #ff000088;
+  background: #ff000011;
+}
