@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font: normal normal normal 12px Inter;
+}
+
+.mrg-0 { margin:  2px }
+.mrg-1 { margin:  4px }
+.mrg-2 { margin:  8px }
+.mrg-3 { margin: 16px }
+.mrg-4 { margin: 32px }
+.mrg-5 { margin: 64px }
+
+.pad-0 { padding:  2px }
+.pad-1 { padding:  4px }
+.pad-2 { padding:  8px }
+.pad-3 { padding: 16px }
+.pad-4 { padding: 32px }
+.pad-5 { padding: 64px }
+
+.gap-0 { gap:  2px }
+.gap-1 { gap:  4px }
+.gap-2 { gap:  8px }
+.gap-3 { gap: 16px }
+.gap-4 { gap: 32px }
+.gap-5 { gap: 64px }
+
+h1 { font-size: 64px }
+h2 { font-size: 48px }
+h3 { font-size: 32px }
+h4 { font-size: 24px }
+h5 { font-size: 16px }
+h6 { font-size: 14px }
+
+.row { display: flex; flex-direction: row }
+.col { display: flex; flex-direction: column }
+.row > .right { margin-left: auto }
+
